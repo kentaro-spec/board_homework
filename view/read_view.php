@@ -16,7 +16,7 @@
         <td>コメント</td>
         <td>投稿時刻</td>
     </tr>
-    <?php foreach($reverse as $row) :?>
+    <?php foreach($data as $row) :?>
         <tr>
             <td><?php echo html_escape($row['name']);?></td>
             <td><?php echo html_escape($row['title']);?></td>

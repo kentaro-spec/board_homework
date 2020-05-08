@@ -105,10 +105,10 @@ function select_member($dbh, $name, $password) {
 
 // 会員データを全部返す
 
-function select_member_all($dbh) {
-    $sql = 'SELECT * FROM board_user';
-    $stmt = $dbh->prepare($sql);
-    $stmt->execute();
-    $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $data;
-}
+// function select_member_all($dbh) {
+//     $sql = 'SELECT * FROM board_user';
+//     $stmt = $dbh->prepare($sql);
+//     $stmt->execute();
+//     $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//     return $data;
+// }

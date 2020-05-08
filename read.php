@@ -8,10 +8,10 @@ require_once('helpers/extra_helper.php');
 // データベースへの接続
 $dbh = get_db_connect();
 
-$data =select_member_all($dbh);
+$data =select_user($dbh);
 
 // 確認
-// var_dump($data);
+var_dump($data);
 $reverse = array_reverse($data);
 
 include_once('view/read_view.php');

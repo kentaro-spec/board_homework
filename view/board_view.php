@@ -1,4 +1,3 @@
-<?php var_dump($data);?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
