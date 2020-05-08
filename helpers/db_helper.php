@@ -30,7 +30,7 @@ function insert_user_data($dbh, $name, $title, $comment){
 }
 
 //データベースから名前、タイトル、コメント、投稿時刻を取り出す
-function select_user($dbh) {
+function select_posts($dbh) {
 
     $data = [];
 

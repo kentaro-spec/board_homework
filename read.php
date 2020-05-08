@@ -8,7 +8,7 @@ require_once('helpers/extra_helper.php');
 // データベースへの接続
 $dbh = get_db_connect();
 
-$data =select_user($dbh);
+$data =select_posts($dbh);
 
 // 確認
 var_dump($data);

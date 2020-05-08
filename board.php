@@ -50,7 +50,7 @@
     }
     // データベースから取り出す
 
-    $data = select_user($dbh);
+    $data = select_posts($dbh);
     
     //データを逆順にする
     // $reverse = array_reverse($data);
