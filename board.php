@@ -53,7 +53,7 @@
     $data = select_user($dbh);
     
     //データを逆順にする
-    $reverse = array_reverse($data);
+    // $reverse = array_reverse($data);
 
 
     // 表示ページ

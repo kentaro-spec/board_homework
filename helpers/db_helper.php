@@ -34,7 +34,7 @@ function select_user($dbh) {
 
     $data = [];
 
-    $sql = "SELECT name, title, comment, created FROM board_user";
+    $sql = "SELECT name, title, comment, created FROM board_user ORDER BY id DESC";
     $stmt = $dbh->prepare($sql);
     $stmt->execute();
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
